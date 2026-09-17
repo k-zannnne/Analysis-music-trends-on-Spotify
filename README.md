@@ -18,20 +18,16 @@ Dự án tập trung khai thác bộ dữ liệu từ Spotify bao gồm thông t
 ## 📁 Cấu trúc thư mục (Project Structure)
 
 ```text
-Analysis-music-trends-on-Spotify/
-│
+spotify-trend-analysis/
 ├── data/
-│   ├── raw/                 # Dữ liệu thô (spotify_tracks_raw.csv)
-│   └── processed/           # Dữ liệu đã qua làm sạch (spotify_tracks_cleaned.csv)
-│
+│   ├── raw/                  # File dữ liệu thô gốc (chưa chỉnh sửa)
+│   └── processed/            # File dữ liệu sạch dùng cho Power BI Dashboard
 ├── notebooks/
-│   └── 01_data_cleaning.ipynb   # Jupyter Notebook xử lý & làm sạch dữ liệu
-│
-├── dashboards/              # File thiết kế Dashboard (.pbix hoặc hình ảnh)
-│   └── spotify_dashboard.pbix
-│
-├── scripts/                 # Code Python phụ trợ / cào dữ liệu
-│
-├── .gitignore               # Khai báo các file không đưa lên GitHub
-├── requirements.txt         # Danh sách thư viện Python cần thiết
-└── README.md                # Tài liệu hướng dẫn dự án
+│   ├── 01_data_cleaning.ipynb # Làm sạch, xử lý dữ liệu & Feature Engineering
+│   └── 02_eda_analysis.ipynb # Phân tích khám phá dữ liệu (EDA) & Trực quan hóa
+├── dashboards/
+│   ├── spotify_dashboard.pbix# File Dashboard Power BI
+│   └── screenshots/          # Ảnh chụp giao diện các trang Dashboard
+├── .gitignore                # Khai báo loại bỏ file rác, venv, checkpoint
+├── requirements.txt          # Danh sách các thư viện Python sử dụng trong dự án
+└── README.md                 # Giới thiệu dự án
