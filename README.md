@@ -1,10 +1,10 @@
-﻿# 🎵 Analysis of Music Trends on Spotify
+﻿#  Analysis of Music Trends on Spotify
 
 Dự án phân tích xu hướng và đặc trưng âm nhạc trên Spotify nhằm tìm hiểu các yếu tố ảnh hưởng đến độ phổ biến (*Popularity*) của bài hát, xu hướng âm nhạc qua các năm và thói quen thưởng thức của người nghe.
 
 ---
 
-## 📌 Tổng quan dự án (Project Overview)
+##  Tổng quan dự án (Project Overview)
 
 Dự án tập trung khai thác bộ dữ liệu từ Spotify bao gồm thông tin chi tiết về bài hát, nghệ sĩ cùng các chỉ số âm thanh đặc trưng (*Audio Features* như `danceability`, `energy`, `valence`, `tempo`,...).
 
@@ -15,7 +15,7 @@ Dự án tập trung khai thác bộ dữ liệu từ Spotify bao gồm thông t
 
 ---
 
-## 📁 Cấu trúc thư mục (Project Structure)
+##  Cấu trúc thư mục (Project Structure)
 
 ```text
 spotify-trend-analysis/
